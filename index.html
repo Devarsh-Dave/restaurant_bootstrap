@@ -28,7 +28,7 @@
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li> -->
                         <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                     </ul>
                     <span class="navbar-text">
@@ -303,7 +303,7 @@
                     <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
                         <li><a href="./aboutus.html">About</a></li>
-                        <li><a href="#">Menu</a></li>
+                        <!-- <li><a href="#">Menu</a></li> -->
                         <li><a href="./contactus.html">Contact</a></li>
                     </ul>
                 </div>
@@ -336,43 +336,14 @@
            </div>
         </div>
     </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-       <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 
-        <!-- js to operate carousel -->
-        <script>
-            $(document).ready(function(){
-                $("#mycarousel").carousel({interval : 2000});
-                $("#carouselButton").click(function(){
-                    if ($("#carouselButton").children("span").hasClass("fa-pause")){
-                        $("#mycarousel").carousel("pause");
-                        $("#carouselButton").children("span").removeClass("fa-pause");
-                        $("#carouselButton").children("span").addClass("fa-play");
-                    }
-                    else if ($("#carouselButton").children("span").hasClass("fa-play")){
-                        $("#mycarousel").carousel("cycle");
-                        $("#carouselButton").children("span").removeClass("fa-play");
-                        $("#carouselButton").children("span").addClass("fa-pause");
-                    }
-                });
-            });
-        </script>
-
-        <!-- Js to operate login and reserve buttons -->
-        <script>
-            $(document).ready(function(){
-                $("#loginToggle").click(function(){
-                    $("#loginModal").modal("toggle");
-                });
-                $("#resvToggle").click(function(){
-                    $("#resvModal").modal("toggle");
-                });
-            });
-
-        </script>
+      
 
 
 </body>
