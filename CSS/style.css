@@ -9,14 +9,14 @@
   min-height: 400px; }
 
 .footer {
-  background-color: #d1c4e9;
+  background-color: #adcad6;
   margin: 0px auto;
   padding: 20px 0px; }
 
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  background: #9575cd;
+  background: #25283d;
   color: floralwhite; }
 
 address {
@@ -26,10 +26,11 @@ address {
 
 body {
   padding: 50px 0px 0px 0px;
-  z-index: 0; }
+  z-index: 0;
+  background: #edf2ef; }
 
 .navbar-dark {
-  background-color: #512da8; }
+  background-color: #25283d; }
 
 .tab-content {
   border-left: 1px solid #ddd;
@@ -38,7 +39,7 @@ body {
   padding: 10px; }
 
 .carousel {
-  background: #512da8; }
+  background: #006e90; }
   .carousel .carousel-item {
     height: 300px; }
     .carousel .carousel-item img {
@@ -56,10 +57,14 @@ body {
   z-index: 1; }
 
 .modal .modal-header {
-  background: #512da8;
+  background: #25283d;
   color: floralwhite; }
   .modal .modal-header .close {
     color: floralwhite; }
 
 .modal .modal-body {
-  background: #d1c4e9; }
+  background: #edf2ef; }
+
+img {
+  max-width: 300px;
+  max-height: 200px; }

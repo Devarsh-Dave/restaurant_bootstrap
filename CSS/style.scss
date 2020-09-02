@@ -1,7 +1,7 @@
 $lt-gray: #ddd;
-$background-dark: #512da8;
-$background-light: #9575cd;
-$background-pale: #d1c4e9;
+$background-dark: #25283d;
+$background-light: #57c4e5;
+$background-pale: #adcad6;
 
 // Height variables
 $carousel-item-height: 300px;
@@ -28,7 +28,7 @@ $carousel-item-height: 300px;
 
 .jumbotron {
 	@include zero-margin(70px,30px);
-	background: $background-light;
+	background: $background-dark;
 	color: floralwhite;
 }
 
@@ -41,6 +41,7 @@ address {
 body {
 	padding: 50px 0px 0px 0px;
 	z-index: 0;
+	background: #edf2ef;
 }
 
 .navbar-dark {
@@ -55,7 +56,7 @@ body {
 }
 
 .carousel {
-	background: $background-dark;
+	background: #006e90;
 
 	.carousel-item {
 		height: $carousel-item-height;
@@ -86,6 +87,10 @@ body {
 		}
 	}
 	.modal-body {
-		background: $background-pale;
+		background: #edf2ef;
 	}
+}
+img {
+	max-width: 300px;
+	max-height: 200px;
 }
